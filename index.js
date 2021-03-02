@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const app = express(); 
 const VMAX = require('./controllers/VMAX')
 const VPLEX = require('./controllers/VPLEX')
-const port = process.env.port || 3000;
+const port = process.env.port || 4000;
 
 //Here we are configuring express to use body-parser as middle-ware.
 app.use(bodyParser.urlencoded({ extended: false }));
