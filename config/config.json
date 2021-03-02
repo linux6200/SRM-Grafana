@@ -1,14 +1,13 @@
 { 
   "Backend":
     {
-      "URL": "http://csmpcollecter:58080/APG-REST", 
+      "URL": "http://srmserver:58080/APG-REST", 
       "USER": "admin",
       "PASSWORD": "changeme", 
       "VERSION": 4.4,
       "TIME_RANGE": "l2w"
     },
-    "SRM_RESTAPI": {
-        "SERIES_BEGIN_TS": "2017-12-14T18:30:00+08:00",
+    "SRM_RESTAPI": { 
         "SERIES_LIMITS": "10000",
         "SERIES_PERIOD": 86400,
         "TIME_RANGE": "l2w",

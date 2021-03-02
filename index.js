@@ -25,5 +25,5 @@ app.use('/grafana/vmax', VMAX);
 app.use('/grafana/vplex', VPLEX);
 
 app.listen(port, function () {
-    console.log('Example app listening on port 3000!');
+    console.log(`SRM Data Gateway listening on port ${port}`);
 });
