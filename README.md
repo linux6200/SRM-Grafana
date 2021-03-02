@@ -11,7 +11,7 @@ npm install
 
 3. add srm ip address config to /etc/hosts
 
-"srmserver  xx.xx.xx.xx" 
+"xx.xx.xx.xx  srmserver" 
 
 4. start app
 
