@@ -2,7 +2,7 @@
 
 1. install nodejs
 
-curl -sL https://rpm.nodesource.com/setup_10.x | sudo bash -
+curl -sL https://rpm.nodesource.com/setup_10.x | sudo bash -; 
 yum install nodejs -y
 
 2. install package 
