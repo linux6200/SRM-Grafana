@@ -187,7 +187,7 @@ router.post('/query', function (req, res) {
             .query(queryString)
             .end(function (response) {
                 if (response.error) {
-                    logger.error(response.error);
+                    console.log(response.error);
                     return response.error;
                 } else {
                     //console.log(response.raw_body);   
